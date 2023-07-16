@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F00844CD2A639F440073432E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00844CC2A639F440073432E /* main.cpp */; };
 		F00844D52A639FE60073432E /* BinomialCoefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F00844D32A639FE60073432E /* BinomialCoefficients.cpp */; };
+		F0A0A3372A63D45900839353 /* BinomialDynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0A0A3352A63D45900839353 /* BinomialDynamic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F00844CC2A639F440073432E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F00844D32A639FE60073432E /* BinomialCoefficients.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialCoefficients.cpp; sourceTree = "<group>"; };
 		F00844D42A639FE60073432E /* BinomialCoefficients.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinomialCoefficients.hpp; sourceTree = "<group>"; };
+		F0A0A3352A63D45900839353 /* BinomialDynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinomialDynamic.cpp; sourceTree = "<group>"; };
+		F0A0A3362A63D45900839353 /* BinomialDynamic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinomialDynamic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		F00844CB2A639F440073432E /* BinomialCoefficients */ = {
 			isa = PBXGroup;
 			children = (
+				F0A0A3352A63D45900839353 /* BinomialDynamic.cpp */,
+				F0A0A3362A63D45900839353 /* BinomialDynamic.hpp */,
 				F00844CC2A639F440073432E /* main.cpp */,
 				F00844D32A639FE60073432E /* BinomialCoefficients.cpp */,
 				F00844D42A639FE60073432E /* BinomialCoefficients.hpp */,
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00844D52A639FE60073432E /* BinomialCoefficients.cpp in Sources */,
+				F0A0A3372A63D45900839353 /* BinomialDynamic.cpp in Sources */,
 				F00844CD2A639F440073432E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
